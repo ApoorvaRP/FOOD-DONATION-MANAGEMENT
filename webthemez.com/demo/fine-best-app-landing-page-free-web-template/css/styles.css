@@ -16,7 +16,8 @@ body {
 	font-size:16px;
 	line-height: 28px;
 	color: #777;
-	background:#e01931;
+	background: -webkit-linear-gradient(left, #003366,#004080,#0059b3
+	, #0073e6);;
 	overflow-x:hidden;
 	position: relative;
 } 
