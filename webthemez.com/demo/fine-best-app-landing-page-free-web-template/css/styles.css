@@ -16,7 +16,7 @@ body {
 	font-size:16px;
 	line-height: 28px;
 	color: #777;
-	background: #e01931;
+	background: #bf80ff;
 	overflow-x:hidden;
 	position: relative;
 } 
@@ -38,7 +38,7 @@ p {
 	margin:0;
 }
 a {
-	color: #d92634;
+	color: #bf80ff;
 	outline: 0;
 	font-weight: bold;
 	-webkit-transition: all .8s ease;
@@ -46,23 +46,18 @@ a {
 } 
 a:hover {
 	text-decoration: none;
-	color: #d92634;
+	color: #bf80ff;
 	-webkit-transition: all .8s ease;
 	transition: all .8s ease;
 }
 .highlight {
-	color: #F33030;
+	color: #bf80ff;
 }
  
 .banner {
 	  position: relative;
-	  /* top: -80px; */
-	  /* padding-top: 20px; */
-	  /* background: #7b4397; */
-	  background: -webkit-linear-gradient(to left,#7b4397,#dc2430);
-	  /* background: linear-gradient(to left,#7b4397,#dc2430); */
+	  background: -webkit-linear-gradient(to left,#7b4397,#bf80ff);/
 	  color: #fff;
-	  /* margin-top: -1px; */
 	  border-top: 1px solid #c54372;
 	  background: #fff;
 }
@@ -77,17 +72,13 @@ a:hover {
   position: relative;
 }
 .overlay {
-    /* background: #fef6d5; */
     position: relative;
     width: 100%;
     height: 100%;
-    /* display: block; */
-    /* background: #7b4397; */
-    background: -webkit-linear-gradient(to left,#7b4397,#dc2430);
-    /* background: linear-gradient(to left,#7b4397,#dc2430); */
+    background: -webkit-linear-gradient(to left,#7b4397,#bf80ff);
     color: #fff;
     margin-top: -1px;
-    border-top: 1px solid #c54372;
+    border-top: 1px solid #5900b3;
 }
 #menu {
 	z-index: 999;
@@ -99,12 +90,12 @@ a:hover {
 	background: transparent;
 	padding: 15px 0;
 	background:#7b4397;
-	background:-webkit-linear-gradient(to left,#7b4397,#dc2430);
-	background: #e01931;
+	background:-webkit-linear-gradient(to left,#7b4397,#9933ff);
+	background: #5900b3;
 	border: 0px;
 }
 .navbar-default .navbar-brand {
-    padding: 7px;
+    padding: 10px;
 }
 .navbar-default .navbar-nav > li > a {
     color: #FFF;
@@ -117,8 +108,7 @@ a:hover {
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-	background: transparent;
-    
+	background: transparent;    
 	color: #FAD12C;
 }
 .btn-default {
@@ -128,15 +118,15 @@ a:hover {
 	line-height: 20px;
 	padding: 15px 35px;
 	height: 50px;
-	border: 2px solid #d92634;
+	border: 2px solid #5900b3;
 	background: transparent;
 	transition: all 0.4s;
-	color: #d92634;
+	color: #5900b3;
 	border-radius: 100px;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-	border: 2px solid #EE2D2D;
-	background: #EE2D2D;
+	border: 2px solid #4c14a0;
+	background: #4c14a0;
 	color: white;
 }
 .btn-primary {
@@ -175,10 +165,11 @@ a:hover {
 }
 .site-name img{
 	width: 150px; 
-	height: 37px
+	height: 137px;
 }
 .logo {
-	margin: 10px 0 10px 0;
+	padding-top: 0%;
+	margin: 0px 0 0px 0;
 }
 .logo img{
 	width:200px; 
