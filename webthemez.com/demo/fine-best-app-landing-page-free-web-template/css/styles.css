@@ -16,7 +16,12 @@ body {
 	font-size:16px;
 	line-height: 28px;
 	color: #777;
+<<<<<<< HEAD
 	background: #bf80ff;
+=======
+	background: -webkit-linear-gradient(left, #003366,#004080,#0059b3
+	, #0073e6);;
+>>>>>>> 25f3f363d2f6b8a7d1f7a5718be7b3ceeddc08e4
 	overflow-x:hidden;
 	position: relative;
 } 
